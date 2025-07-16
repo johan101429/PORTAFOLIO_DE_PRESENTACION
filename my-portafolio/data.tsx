@@ -7,18 +7,7 @@ export const dataAboutMe = [
         icon: <Briefcase />,
         description: "-1 año de experiencia",
     },
-    {
-        id: 2,
-        name: "Clientes",
-        icon: <UsersRound />,
-        description: "+200 clientes satisfechos",
-    },
-    {
-        id: 3,
-        name: "Proyectos",
-        icon: <Wrench />,
-        description: "+50 completados",
-    },
+    
 ];
 
 export const itemsNavbar = [
@@ -137,22 +126,32 @@ export const dataExperience = [
             {
                 name: "JavaScript",
                 subtitle: "Experimentado",
-                value: 60,
+                value:70,
             },
             {
                 name: "Tailwind CSS",
-                subtitle: "Experimentado",
-                value: 30,
+                subtitle: "Intermedio",
+                value: 50
             },
             {
                 name: "React",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
                 name: "Bootstrap",
-                subtitle: "Basic",
+                subtitle: "Intermedio",
                 value: 50,
+            },
+            {
+                name: "Redux, Zustand",
+                subtitle: "Intermedio",
+                value: 70,
+            },
+            {
+                name: "Shadcn/ui",
+                subtitle: "Intermedio",
+                value: 70,
             },
         ],
     },
@@ -192,6 +191,7 @@ export const dataExperience = [
             },
         ],
     },
+    
 ];
 
 
@@ -207,9 +207,7 @@ export const dataServices = [
             {
                 name: "Diseño y desarrollo responsive",
             },
-            {
-                name: "Optimización SEO",
-            },
+            
             {
                 name: "Desarrollo de aplicaciones web",
             },
