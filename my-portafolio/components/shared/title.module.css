@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  margin-bottom: 2rem; /* mb-8 */
+}
+
+.title {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: bold;
+  color: #1a202c; /* text-gray-900 */
+  margin-bottom: 0.5rem; /* mb-2 */
+}
+
+.subtitle {
+  font-size: 1.25rem; /* text-xl */
+  color: #718096; /* text-gray-600 */
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: #fff; /* dark:text-white */
+  }
+  .subtitle {
+    color: #a0aec0; /* dark:text-gray-400 */
+  }
+}
