@@ -27,7 +27,7 @@ const AboutMe = () => {
                                         <Image 
                                         src={data.url} 
                                         alt="Image"
-                                         width={250} 
+                                         width={400} 
                                          height={400} 
                                          className="w-full h-auto rounded-lg" />
                                         
