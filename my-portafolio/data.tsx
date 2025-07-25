@@ -285,22 +285,22 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+34 677 66 66 33",
-        link: "tel:+34677666633",
+        subtitle: "+57 3108466962",
+        link: "tel:+573108466962",
         icon: <Phone />,
     },
     {
         id: 2,
         title: "Github",
-        subtitle: "github.com/ratasi",
-        link: "github.com/ratasi",
+        subtitle: "github.com/johan101429",
+        link: "https://github.com/johan101429",
         icon: <Code2 />,
     },
     {
         id: 3,
         title: "Email",
-        subtitle: "email@email.com",
-        link: "mailto:test@test.com",
+        subtitle: "jona1014.mr@gmail.com",
+        link: "mailto:jona1014.mr@gmail.com",
         icon: <Inbox />,
     },
 ];
