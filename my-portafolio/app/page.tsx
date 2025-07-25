@@ -6,6 +6,8 @@ import Experience from '@/components/experience';
 import Services from '@/components/services';
 import Portfolio from '@/components/portfolio';
 import Testimonials from '@/components/testimonials';
+import Contact from '@/components/contact';
+import ContactForm from '@/components/contact-form';
 
 export default function Home() {
   return (
@@ -18,6 +20,9 @@ export default function Home() {
          <Services /> 
          <Portfolio/>
          <Testimonials /> 
+         <Contact />
+         
+
             
 
     </main>
