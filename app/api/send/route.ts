@@ -19,11 +19,11 @@ export async function POST(req: Request) {
         text: "Johan Mauricio Gil",
       });
       return Response.json({ message: 'Mensaje enviado correctamente', data }, { status: 200 });
-    } catch (_) {
+    } catch (error) {
       // podrías agregar un console.error si quieres loggear internamente
       return Response.json({ error: 'Error al enviar email' }, { status: 500 });
     }
-  } catch (_) {
+  } catch (error) {
     return Response.json({ error: 'Error al procesar la solicitud' }, { status: 500 });
   }
 }

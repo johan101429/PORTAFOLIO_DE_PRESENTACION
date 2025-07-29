@@ -9,7 +9,7 @@ const Introduction = () => {
   return (
     <Container>
       <div className={styles.home} id="home">
-        <h3 className={styles.greeting}>Hello I'm</h3>
+        <h3 className={styles.greeting}>Hello I m</h3>
         <h1 className={styles.title}>JOHAN MAURICIO GIL RENDON</h1>
         <h2 className={styles.subtitle}>Frontend Developer</h2>
         <div className={styles.flexItems}>
