@@ -1,0 +1,44 @@
+.navbar {
+  position: fixed;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: auto;
+  justify-content: center;
+  height: max-content;
+  bottom: 5rem; /* bottom-20 */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* gap-2 */
+  justify-content: center;
+  padding: 0.25rem 1rem; /* px-4 py-1 */
+  background: rgba(30, 41, 59, 0.1); /* bg-slate-800/10 */
+  backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+.menu.dark {
+  background: rgba(255, 255, 255, 0.1); /* dark:bg-white/10 */
+}
+
+.menuItem {
+  cursor: pointer;
+  padding: 0.5rem 0.75rem; /* px-3 py-2 */
+  border-radius: 9999px;
+  transition: background 0.15s;
+}
+
+.menuItem:hover {
+  background: #e2e8f0; /* light hover */
+}
+
+@media (prefers-color-scheme: dark) {
+  .menuItem:hover {
+    background: #334155; /* dark:hover:bg-slate-800 */
+  }
+}

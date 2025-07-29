@@ -1,0 +1,43 @@
+.container {
+  padding: 1.5rem;
+  max-width: 64rem; /* max-w-5xl */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 3rem;  /* md:px-12 */
+    padding-right: 3rem;
+    padding-top: 7.5rem; /* md:py-30 (aprox 120px) */
+    padding-bottom: 7.5rem;
+  }
+}
+
+.contactButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #e5e7eb; /* color claro */
+  color: #22223b;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 rgba(30,41,59,0.08);
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.contactButton:hover {
+  background: #cbd5e1;
+  color: #1e293b;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.phoneIcon {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+  color: #22223b;
+}
