@@ -1,6 +1,6 @@
 import { dataExperience } from '@/data';
 import Title from './shared/title';
-import { BadgeCheck, Key } from 'lucide-react';
+import { BadgeCheck } from 'lucide-react';
 import {Progress} from './ui/progress';
 
 const Experience  = () => {
