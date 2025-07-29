@@ -1,11 +1,10 @@
-//re_YNdGKAP9_AHn57EKVTjFfFz86J9foRAdE
 
 import {Resend} from 'resend';
 import { EmailTemplate } from '@/components/email-template';
 
 
 
-const resend = new Resend("re_YNdGKAP9_AHn57EKVTjFfFz86J9foRAdE");
+const resend = new Resend(process.env.RESEND_API_KEY );
 export  async function POST(req: Request) {
     try {
         const dataForm = await req.json();
