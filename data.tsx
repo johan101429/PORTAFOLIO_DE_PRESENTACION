@@ -91,20 +91,7 @@ export const dataPortfolio = [
         urlGithub: "#!",
         urlDemo: "https://taller-react-five.vercel.app/",
     },
-    {
-        id: 5,
-        title: "Sitios Web Impactantes",
-        image: "/image-5.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 6,
-        title: "Proyectos Web Dinámicos",
-        image: "/image-6.jpg",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
+    
 ];
 
 
@@ -115,7 +102,7 @@ export const dataExperience = [
         experience: [
             {
                 name: "HTML",
-                subtitle: "Experimentado",
+                subtitle: "Intwermedio",
                 value: 100,
             },
             {
@@ -125,7 +112,7 @@ export const dataExperience = [
             },
             {
                 name: "JavaScript",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value:70,
             },
             {
@@ -145,7 +132,7 @@ export const dataExperience = [
             },
             {
                 name: "Redux, Zustand",
-                subtitle: "Intermedio",
+                subtitle: "Basico",
                 value: 70,
             },
             {
@@ -161,7 +148,7 @@ export const dataExperience = [
         experience: [
             {
                 name: "Node JS",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 80,
             },
             {
@@ -176,12 +163,12 @@ export const dataExperience = [
             },
             {
                 name: "MySQL",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
                 name: "PHP",
-                subtitle: "Experimentado",
+                subtitle: "Intermedio",
                 value: 60,
             },
             {
